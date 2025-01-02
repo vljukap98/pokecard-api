@@ -9,7 +9,7 @@ async def hello_world(request):
     return text("Hello, world.")
 
 @app.get("/image")
-async def recognize_video(request):
+async def recognize_img(request):
     # TODO: read image from request as bytes?
     # TODO: use pokemon recognizer on the image
     recognizer = CardRecognizer(

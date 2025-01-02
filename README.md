@@ -16,3 +16,15 @@ $ apt install libtesseract-dev
 $ apt install libjpeg-dev zlib1g-dev
 $ pip install pokemon-card-recognizer
 ```
+
+## Docker
+
+```shell
+$ docker compose up --build -d
+```
+
+Logs
+
+```shell
+$ docker compose logs -f
+```
